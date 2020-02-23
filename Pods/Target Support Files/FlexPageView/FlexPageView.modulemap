@@ -1,0 +1,6 @@
+framework module FlexPageView {
+  umbrella header "FlexPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

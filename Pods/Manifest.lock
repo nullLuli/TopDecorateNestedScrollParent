@@ -1,0 +1,16 @@
+PODS:
+  - FlexPageView (0.2.0)
+
+DEPENDENCIES:
+  - FlexPageView
+
+SPEC REPOS:
+  trunk:
+    - FlexPageView
+
+SPEC CHECKSUMS:
+  FlexPageView: 4a0de59c96e7452642c223a37b1abd78900752ba
+
+PODFILE CHECKSUM: dce69ab5125e7253cf8117227ee155b3858c599e
+
+COCOAPODS: 1.8.4

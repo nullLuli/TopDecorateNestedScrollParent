@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846B7C462402917400C69EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B7C452402917400C69EFB /* AppDelegate.swift */; };
+		846B7C482402917400C69EFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B7C472402917400C69EFB /* SceneDelegate.swift */; };
+		846B7C4D2402917400C69EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B7C4B2402917400C69EFB /* Main.storyboard */; };
+		846B7C4F2402917800C69EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846B7C4E2402917800C69EFB /* Assets.xcassets */; };
+		846B7C522402917800C69EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846B7C502402917800C69EFB /* LaunchScreen.storyboard */; };
+		846B7C5A2402A57500C69EFB /* HomeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B7C592402A57500C69EFB /* HomeScrollView.swift */; };
+		846B7C5C2402A98400C69EFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B7C5B2402A98400C69EFB /* HomeViewController.swift */; };
+		846B7C5E2402AAD800C69EFB /* ContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B7C5D2402AAD700C69EFB /* ContentController.swift */; };
+		846B7C602402AAFA00C69EFB /* HomeSegmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B7C5F2402AAFA00C69EFB /* HomeSegmentController.swift */; };
+		CC61642EBC8DC2E00E93AC0A /* Pods_TopDecorateNestedScrollParentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EF3DF5E167B767A7EAAD22 /* Pods_TopDecorateNestedScrollParentDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B1A76DC128211BA7A43378B /* Pods-TopDecorateNestedScrollParentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDecorateNestedScrollParentDemo.release.xcconfig"; path = "Target Support Files/Pods-TopDecorateNestedScrollParentDemo/Pods-TopDecorateNestedScrollParentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		846B7C422402917400C69EFB /* TopDecorateNestedScrollParentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDecorateNestedScrollParentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846B7C452402917400C69EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846B7C472402917400C69EFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		846B7C4C2402917400C69EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846B7C4E2402917800C69EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846B7C512402917800C69EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846B7C532402917800C69EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B7C592402A57500C69EFB /* HomeScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScrollView.swift; sourceTree = "<group>"; };
+		846B7C5B2402A98400C69EFB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		846B7C5D2402AAD700C69EFB /* ContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentController.swift; sourceTree = "<group>"; };
+		846B7C5F2402AAFA00C69EFB /* HomeSegmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSegmentController.swift; sourceTree = "<group>"; };
+		B3EF3DF5E167B767A7EAAD22 /* Pods_TopDecorateNestedScrollParentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopDecorateNestedScrollParentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEEFF61FE5792A4D2F7D4B01 /* Pods-TopDecorateNestedScrollParentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopDecorateNestedScrollParentDemo.debug.xcconfig"; path = "Target Support Files/Pods-TopDecorateNestedScrollParentDemo/Pods-TopDecorateNestedScrollParentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846B7C3F2402917400C69EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC61642EBC8DC2E00E93AC0A /* Pods_TopDecorateNestedScrollParentDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B63FDA0756BDF3EA76DC41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEEFF61FE5792A4D2F7D4B01 /* Pods-TopDecorateNestedScrollParentDemo.debug.xcconfig */,
+				1B1A76DC128211BA7A43378B /* Pods-TopDecorateNestedScrollParentDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		846B7C392402917400C69EFB = {
+			isa = PBXGroup;
+			children = (
+				846B7C442402917400C69EFB /* TopDecorateNestedScrollParentDemo */,
+				846B7C432402917400C69EFB /* Products */,
+				20B63FDA0756BDF3EA76DC41 /* Pods */,
+				F776B5B5B816EB087D243F3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846B7C432402917400C69EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846B7C422402917400C69EFB /* TopDecorateNestedScrollParentDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846B7C442402917400C69EFB /* TopDecorateNestedScrollParentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				846B7C5D2402AAD700C69EFB /* ContentController.swift */,
+				846B7C592402A57500C69EFB /* HomeScrollView.swift */,
+				846B7C452402917400C69EFB /* AppDelegate.swift */,
+				846B7C472402917400C69EFB /* SceneDelegate.swift */,
+				846B7C4B2402917400C69EFB /* Main.storyboard */,
+				846B7C4E2402917800C69EFB /* Assets.xcassets */,
+				846B7C502402917800C69EFB /* LaunchScreen.storyboard */,
+				846B7C532402917800C69EFB /* Info.plist */,
+				846B7C5B2402A98400C69EFB /* HomeViewController.swift */,
+				846B7C5F2402AAFA00C69EFB /* HomeSegmentController.swift */,
+			);
+			path = TopDecorateNestedScrollParentDemo;
+			sourceTree = "<group>";
+		};
+		F776B5B5B816EB087D243F3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF3DF5E167B767A7EAAD22 /* Pods_TopDecorateNestedScrollParentDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846B7C412402917400C69EFB /* TopDecorateNestedScrollParentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846B7C562402917800C69EFB /* Build configuration list for PBXNativeTarget "TopDecorateNestedScrollParentDemo" */;
+			buildPhases = (
+				5596C3F00D8B478BFDD52485 /* [CP] Check Pods Manifest.lock */,
+				846B7C3E2402917400C69EFB /* Sources */,
+				846B7C3F2402917400C69EFB /* Frameworks */,
+				846B7C402402917400C69EFB /* Resources */,
+				D13D5BE17C7BE93EEF21C6E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopDecorateNestedScrollParentDemo;
+			productName = TopDecorateNestedScrollParentDemo;
+			productReference = 846B7C422402917400C69EFB /* TopDecorateNestedScrollParentDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846B7C3A2402917400C69EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = nullLuli;
+				TargetAttributes = {
+					846B7C412402917400C69EFB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 846B7C3D2402917400C69EFB /* Build configuration list for PBXProject "TopDecorateNestedScrollParentDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846B7C392402917400C69EFB;
+			productRefGroup = 846B7C432402917400C69EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846B7C412402917400C69EFB /* TopDecorateNestedScrollParentDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846B7C402402917400C69EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B7C522402917800C69EFB /* LaunchScreen.storyboard in Resources */,
+				846B7C4F2402917800C69EFB /* Assets.xcassets in Resources */,
+				846B7C4D2402917400C69EFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5596C3F00D8B478BFDD52485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopDecorateNestedScrollParentDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13D5BE17C7BE93EEF21C6E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopDecorateNestedScrollParentDemo/Pods-TopDecorateNestedScrollParentDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopDecorateNestedScrollParentDemo/Pods-TopDecorateNestedScrollParentDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopDecorateNestedScrollParentDemo/Pods-TopDecorateNestedScrollParentDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846B7C3E2402917400C69EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846B7C5C2402A98400C69EFB /* HomeViewController.swift in Sources */,
+				846B7C5E2402AAD800C69EFB /* ContentController.swift in Sources */,
+				846B7C462402917400C69EFB /* AppDelegate.swift in Sources */,
+				846B7C5A2402A57500C69EFB /* HomeScrollView.swift in Sources */,
+				846B7C602402AAFA00C69EFB /* HomeSegmentController.swift in Sources */,
+				846B7C482402917400C69EFB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		846B7C4B2402917400C69EFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B7C4C2402917400C69EFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846B7C502402917800C69EFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846B7C512402917800C69EFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846B7C542402917800C69EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846B7C552402917800C69EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846B7C572402917800C69EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEFF61FE5792A4D2F7D4B01 /* Pods-TopDecorateNestedScrollParentDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W567PZ7SQ2;
+				INFOPLIST_FILE = TopDecorateNestedScrollParentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nullLuli.TopDecorateNestedScrollParentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846B7C582402917800C69EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1A76DC128211BA7A43378B /* Pods-TopDecorateNestedScrollParentDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W567PZ7SQ2;
+				INFOPLIST_FILE = TopDecorateNestedScrollParentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nullLuli.TopDecorateNestedScrollParentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846B7C3D2402917400C69EFB /* Build configuration list for PBXProject "TopDecorateNestedScrollParentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B7C542402917800C69EFB /* Debug */,
+				846B7C552402917800C69EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846B7C562402917800C69EFB /* Build configuration list for PBXNativeTarget "TopDecorateNestedScrollParentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846B7C572402917800C69EFB /* Debug */,
+				846B7C582402917800C69EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846B7C3A2402917400C69EFB /* Project object */;
+}
